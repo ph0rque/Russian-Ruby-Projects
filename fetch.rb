@@ -5,7 +5,7 @@ agent = Mechanize.new
 
 page = agent.get('http://cli.learncodethehardway.org/book/')
 
-chapter_links = []
+chapter_links = [] # what is this?
 
 page.links.each do |link|
   link_id = link.attributes['id']
@@ -13,6 +13,7 @@ page.links.each do |link|
     id_split = link_id.split('-')
     chapter_links << link if id_split[0] == "QQ2" and id_split[1].to_i > 3 
   end
-en
 
-# Misha was here!
+# Misha was here
+end
+
