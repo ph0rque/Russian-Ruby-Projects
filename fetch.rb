@@ -13,4 +13,7 @@ page.links.each do |link|
     id_split = link_id.split('-')
     chapter_links << link if id_split[0] == "QQ2" and id_split[1].to_i > 3 
   end
+
+# Misha was here
 end
+
