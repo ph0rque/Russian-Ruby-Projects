@@ -5,7 +5,7 @@ agent = Mechanize.new
 
 page = agent.get('http://cli.learncodethehardway.org/book/')
 
-chapter_links = []
+chapter_links = [] # what is this?
 
 page.links.each do |link|
   link_id = link.attributes['id']
