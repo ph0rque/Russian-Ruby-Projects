@@ -3,7 +3,7 @@ require 'sinatra'
 
 get '/' do
   puts params
-  'Hello, please add your name after the slash.'
+  'Hello, please add your first name after the slash.'
 end
 
 get '/my-name-is/:name' do
